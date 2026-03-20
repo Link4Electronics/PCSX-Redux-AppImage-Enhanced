@@ -8,7 +8,6 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     libdecor \
-    pango    \
     sdl2
 
 echo "Installing debloated packages..."
